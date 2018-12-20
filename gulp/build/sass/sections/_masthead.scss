@@ -13,7 +13,7 @@ header.masthead {
     font-size: 2rem;
   }
   p {
-    font-weight: 300;
+    font-weight: 900;
   }
   @media (min-width: 768px) {
     p {
@@ -21,10 +21,8 @@ header.masthead {
     }
   }
   @media (min-width: 992px) {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     h1 {
       font-size: 3rem;
     }

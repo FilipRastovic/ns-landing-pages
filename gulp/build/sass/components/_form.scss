@@ -1,11 +1,16 @@
-.form-wrapper {
-  padding: 20px 13px;
-  background: #fafafa;
-  box-shadow: $material-shadow-1;
+.form-wrapper,
+.new-form-wrapper {
+  padding: 30px 25px 30px;
+  background: white;
+  box-shadow: $material-shadow-2;
+
+  h4 {
+    color: $theme-primary;  
+  }
 
   p {
     font-size: 13px;
-
+    color: $theme-tertiary;
     @media (min-width: 990px) {
       font-size: 18px;
     }
@@ -13,8 +18,10 @@
 }
 
 form {
+  border-radius: 0px;
   input,
   select {
+    border-radius: 0px;
     background: $theme-primary;
     background-color: $theme-primary;
     border: 1px solid white;
@@ -23,20 +30,21 @@ form {
       color: white;
     }
   }
-}
 
-.landing-page-content {
   .form-group {
     margin-bottom: 25px;
     input,
     textarea {
-      padding: 20px;
-      border-color: rgb(133, 133, 133);
+      font-family: 'Lato';
+      padding: 10px;
+      border-color: rgb(228, 228, 228);
     }
     input.form-control {
+      background-color: #fafafa;
       height: auto;
     }
     textarea.form-control {
+      background-color: #fafafa;
       height: 248px;
     }
   }
@@ -45,19 +53,23 @@ form {
     box-shadow: none;
   }
   ::-webkit-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
+    
+    color: rgb(228, 228, 228);
   }
   :-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
+    
+    color: rgb(228, 228, 228);
   }
   ::-moz-placeholder {
-    font-weight: 700;
-    color: $gray-400;
+    
+    color: rgb(228, 228, 228);
   }
   :-ms-input-placeholder {
-    font-weight: 700;
-    color: $gray-400;
+    
+    color: rgb(228, 228, 228);
+  }
+  
+  .form-control {
+    border-radius: 0px;
   }
 }

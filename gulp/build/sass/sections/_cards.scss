@@ -1,4 +1,15 @@
 .cards {
   color: white;
   background: $theme-primary;
+  text-align: center;
+
+  p {
+    text-align: justify;
+
+    @media (min-width: 990px) {
+      margin-top: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+  }
 }

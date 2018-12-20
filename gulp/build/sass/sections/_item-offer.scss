@@ -1,0 +1,41 @@
+.item-offer {
+  font-family: 'Lato';
+
+  h2 {
+    color: #363636;
+  }
+
+  hr {
+    border-color: $theme-primary;
+  }
+
+  p {
+    color: $theme-tertiary;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 900;
+
+    @media (min-width: 990px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  ul {
+    li {
+      color: $theme-primary;
+      font-weight: 900;
+      margin-bottom: 20px;
+      font-size: 16px;
+      @media (min-width: 990px) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .disclaimer {
+    color: $theme-primary;
+    padding-top: 20px;
+    border-top: 1px solid #dddddd;
+  }
+}

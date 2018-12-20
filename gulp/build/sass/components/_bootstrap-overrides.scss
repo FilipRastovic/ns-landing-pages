@@ -49,6 +49,22 @@
   }
 }
 
+.btn-white {
+  border-color: white;
+  background-color: white;
+  color: $theme-primary;
+  box-shadow: $material-shadow-1;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+      color: $theme-primary;
+      border-color: white;
+      background-color: darken(white, 2%);
+      box-shadow: $material-shadow-1-hovered;
+  }
+}
+
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
