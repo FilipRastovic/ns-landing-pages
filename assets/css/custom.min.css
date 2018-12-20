@@ -9765,7 +9765,7 @@ form {
     padding-top: 20px;
     border-top: 1px solid #dddddd; }
 
-header.masthead {
+.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.jpg");
@@ -9774,22 +9774,28 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  header.masthead hr {
+  .masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
-  header.masthead h1 {
+  .masthead h1 {
     font-size: 2rem; }
-  header.masthead p {
+  .masthead p {
     font-weight: 900; }
   @media (min-width: 768px) {
-    header.masthead p {
+    .masthead p {
       font-size: 1.15rem; } }
   @media (min-width: 992px) {
-    header.masthead {
+    .masthead {
       padding-top: 10rem;
       padding-bottom: 10rem; }
-      header.masthead h1 {
+      .masthead h1 {
         font-size: 3rem; } }
   @media (min-width: 1200px) {
-    header.masthead h1 {
+    .masthead h1 {
       font-size: 3rem; } }
+  .masthead--revert {
+    background-image: none;
+    background: white; }
+    .masthead--revert h2,
+    .masthead--revert p {
+      color: black; }

@@ -1,5 +1,5 @@
 // Styling for the masthead
-header.masthead {
+.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url('../img/header.jpg');//a
@@ -30,6 +30,16 @@ header.masthead {
   @media (min-width: 1200px) {
     h1 {
       font-size: 3rem;
+    }
+  }
+
+  &--revert {
+    background-image: none;
+    background: white;
+
+    h2,
+    p {
+    color: black;
     }
   }
 }
