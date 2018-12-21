@@ -9808,3 +9808,33 @@ form {
     .masthead--revert h2,
     .masthead--revert p {
       color: black; }
+  .masthead--thankyou {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/header.JPG");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    .masthead--thankyou hr {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .masthead--thankyou h1 {
+      font-size: 2rem; }
+    .masthead--thankyou p {
+      font-weight: 300; }
+    @media (min-width: 768px) {
+      .masthead--thankyou p {
+        font-size: 1.15rem; } }
+    @media (min-width: 992px) {
+      .masthead--thankyou {
+        height: 100vh;
+        min-height: 650px;
+        padding-top: 0;
+        padding-bottom: 0; }
+        .masthead--thankyou h1 {
+          font-size: 3rem; } }
+    @media (min-width: 1200px) {
+      .masthead--thankyou h1 {
+        font-size: 4rem; } }
