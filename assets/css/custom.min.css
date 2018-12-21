@@ -9567,6 +9567,15 @@ a:not([href]):not([tabindex]) {
   .btn-white:visited {
     color: #E55812; }
 
+footer {
+  padding: 25px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #222222; }
+  footer p {
+    font-size: 12px;
+    margin: 0; }
+
 .form-wrapper,
 .new-form-wrapper {
   padding: 30px 25px 30px;
