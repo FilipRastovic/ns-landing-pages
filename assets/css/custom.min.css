@@ -9807,7 +9807,7 @@ form {
     background: white; }
     .masthead--revert h2,
     .masthead--revert p {
-      color: black; }
+      color: #363636; }
   .masthead--thankyou {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
