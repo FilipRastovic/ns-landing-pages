@@ -21,15 +21,15 @@
     }
   }
 
-  ul {
-    li {
-      color: $theme-primary;
-      font-weight: 900;
+  
+  li {
+    color: $theme-primary;
+    font-weight: 900;
+    margin-bottom: 0px;
+    font-size: 16px;
+    @media (min-width: 990px) {
+      font-size: 20px;
       margin-bottom: 20px;
-      font-size: 16px;
-      @media (min-width: 990px) {
-        font-size: 20px;
-      }
     }
   }
 
@@ -37,5 +37,18 @@
     color: $theme-primary;
     padding-top: 20px;
     border-top: 1px solid #dddddd;
+  }
+
+  .w-50 {
+    width: 100% !important;
+    @media (min-width:990px) {
+      width: 50% !important;
+    }
+  }
+
+  .list-group-item {
+    //padding: 0;
+    background-color: transparent !important;
+    border: none;
   }
 }
